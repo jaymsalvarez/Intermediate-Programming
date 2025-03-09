@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+		//Declaring variables	
+	double speed, time, dist;
+	
+	
+// line 11 12 13 inputs the digits of km and time
+	cout<<"Speed Calculator "<<endl;
+	cout<<"Enter Distance (km): ";cin>>dist;
+	cout<<"Enter Time (hr): ";cin>>time;
+
+//Calculates the speed
+	speed = dist / time;
+
+//Shows the output of the speed that calculates distance/time
+	cout<<"The Speed of the Car is: "<<speed<<" km/h.";
+	
+	
+	
+	
+	
+	return 0;
+}

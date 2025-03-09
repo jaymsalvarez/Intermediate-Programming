@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cmath> 
+
+using namespace std;
+
+double areaOfCircle(double diameter) {
+    // Calculate the radius
+    double radius = diameter / 2.0;
+    
+    // Calculate the area using the formula: A = π * r²
+    double area = M_PI * radius * radius;
+    return area;
+}
+
+int main() {
+    double diameter;
+    
+    // Ask the user for the diameter
+    cout << "Enter the diameter of the circle: ";
+    cin >> diameter;
+    
+    // Calculate and display the area
+    double area = areaOfCircle(diameter);
+    cout << "The area of the circle with diameter " << diameter << " is " << area << endl;
+    
+    return 0;
+}
